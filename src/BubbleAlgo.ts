@@ -44,7 +44,7 @@ namespace df {
 		 * 初始泡泡
 		 * @param r 泡泡半径
 		 * @param type 共几种类型泡泡
-		 * @param Class 泡泡类，非实例
+		 * @param Class 泡泡类，非实例，锚点在圆心
 		 * @returns 泡泡对象数组
 		 */
 		public initBubbles<T extends BubbleInterface>(r: number, type: number, Class: { new(): T; }) {
